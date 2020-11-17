@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage("Hello World") {
             steps {
-                (fullname, message) = example6 "Obama" "Barrack"
+                (fullname, message) = example6()
                 script {
                     sh """
                         echo "fullname is ${fullname}"
