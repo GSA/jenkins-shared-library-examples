@@ -7,11 +7,10 @@ pipeline {
     stages {
         stage("Hello World") {
             steps {
-                (fullname, message) = example6()
+                example6()
                 script {
                     sh """
-                        echo "fullname is ${fullname}"
-                        echo "${message}"
+                        echo "fullname is"
                     """
                 } 
             }
