@@ -12,8 +12,8 @@ pipeline {
                     sh """
                         echo "fullname is"
                     """
-                } 
+                }
             }
         }
-    }
+    }   
 }
